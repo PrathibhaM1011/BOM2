@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+@keyframes smoothBgAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+    /* Professional Aesthetic Gradient */
+    background: radial-gradient(circle at center, 
+        rgba(30, 60, 114, 0.9),   /* Deep Blue */
+        rgba(53, 87, 125, 0.8),   /* Soft Navy */
+        rgba(80, 139, 183, 0.7),  /* Sky Blue */
+        rgba(143, 195, 255, 0.6)  /* Light Blue */
+    );
+    
+    background-size: 300% 300%;
+    animation: smoothBgAnimation 12s ease-in-out infinite;
+    
+    /* Extra smooth effect */
+    filter: blur(0.3px);
+}
+
+/* Radial overlay to remove banding and add depth */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, 
+        rgba(255, 255, 255, 0.1) 10%, 
+        rgba(0, 0, 0, 0) 80%
+    );
+    pointer-events: none;
+}
+
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            display: none; 
+        }
+
+       
+        .item {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+            padding: 15px;
+            min-height: 400px;
+        }
+
+        .item:hover {
+            transform: translateY(-5px);
+        }
+
+        
+        .item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+       
+        .item p {
+            font-size: 14px;
+            color: #333;
+            margin: 8px 0;
+        }
+
+        .item p strong {
+            color: #cf75e8;
+        }
+
+       
+        .item button, .startButton {
+            background: #b10a7a;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s ease-in-out;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .item button:hover, .startButton:hover {
+            background: #9303bb;
+        }
+
+        .startButton {
+            margin-top: 20px;
+            padding: 12px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            position: relative;
+            top:50vh;
+        }
+
+       
+ 
+
+
+.loader {
+    position: relative;
+  top: 50vh;
+  display:none;
+  width: fit-content;
+  font-size: 40px;
+  line-height: 1.5;
+  font-family: system-ui,sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0000;
+  -webkit-text-stroke: 1px #000;
+  background:
+    radial-gradient(1.13em at 50% 1.6em,#000 99%,#0000 101%) calc(50% - 1.6em) 0/3.2em 100% text,
+    radial-gradient(1.13em at 50% -0.8em,#0000 99%,#000 101%) 50% .8em/3.2em 100% repeat-x  text;
+  animation: l9 2s linear infinite;
+}
+.loader:before {
+  content: "Loading";
+}
+@keyframes l9 {
+  to {background-position: calc(50% + 1.6em) 0,calc(50% + 3.2em) .8em}
+}
+
+    </style>
+</head>
+<body>
+
+    <button class="startButton">Start</button>
+    <div class="loader" id="loader"></div>
+    <div id="container" class="container"></div>
+
+    <script src="25-3.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+{
+    "categories": [
+      {
+        "id": "1",
+        "category": "Meat",
+        "title": "Beef - Meat",
+        "image": "https://www.themealdb.com/images/category/beef.png",
+        "description": "Beef is the culinary name for meat from cattle, particularly skeletal muscle."
+      },
+      {
+        "id": "2",
+        "category": "Meat",
+        "title": "Chicken - Meat",
+        "image": "https://www.themealdb.com/images/category/chicken.png",
+        "description": "Chicken is a type of domesticated fowl, commonly used for meat and eggs."
+      },
+      {
+        "id": "3",
+        "category": "Dessert",
+        "title": "Desserts - Dessert",
+        "image": "https://www.themealdb.com/images/category/dessert.png",
+        "description": "Dessert includes sweet foods like cakes, pastries, and ice creams."
+      },
+      {
+        "id": "4",
+        "category": "Meat",
+        "title": "Lamb - Meat",
+        "image": "https://www.themealdb.com/images/category/lamb.png",
+        "description": "Lamb, hogget, and mutton are the meat of domestic sheep."
+      },
+      {
+        "id": "5",
+        "category": "Other",
+        "title": "Miscellaneous - Other",
+        "image": "https://www.themealdb.com/images/category/miscellaneous.png",
+        "description": "General foods that don't fit into another category."
+      },
+      {
+        "id": "6",
+        "category": "Pasta",
+        "title": "Pasta - Pasta",
+        "image": "https://www.themealdb.com/images/category/pasta.png",
+        "description": "Pasta is a staple of Italian cuisine, often made from wheat flour and water."
+      },
+      {
+        "id": "7",
+        "category": "Meat",
+        "title": "Pork - Meat",
+        "image": "https://www.themealdb.com/images/category/pork.png",
+        "description": "Pork is the culinary name for meat from a domestic pig."
+      },
+      {
+        "id": "8",
+        "category": "Seafood",
+        "title": "Seafood - Seafood",
+        "image": "https://media.istockphoto.com/id/1156027693/photo/fresh-salmon-steak-with-a-variety-of-seafood-and-herbs.jpg?s=612x612&w=0&k=20&c=FnY31V37yG5Ip4ejRttubUHBS8PPTaZfHHukDsEDjc0=",
+        "description": "Seafood includes fish, shellfish, and other edible marine life."
+      },
+      {
+        "id": "9",
+        "category": "Other",
+        "title": "Side Dishes - Other",
+        "image": "https://www.themealdb.com/images/category/side.png",
+        "description": "A side dish is a food item that accompanies the main course."
+      },
+      {
+        "id": "10",
+        "category": "Other",
+        "title": "Starters - Other",
+        "image": "https://www.themealdb.com/images/category/starter.png",
+        "description": "A starter is a dish served before the main course."
+      },
+      {
+        "id": "11",
+        "category": "Vegan",
+        "title": "Vegan Dishes - Vegan",
+        "image": "https://www.themealdb.com/images/category/vegan.png",
+        "description": "Vegan dishes contain no animal products, including meat, dairy, or eggs."
+      },
+      {
+        "id": "12",
+        "category": "Vegetarian",
+        "title": "Vegetarian Dishes - Vegetarian",
+        "image": "https://www.themealdb.com/images/category/vegetarian.png",
+        "description": "Vegetarian meals exclude meat but may include dairy and eggs."
+      },
+      {
+        "id": "13",
+        "category": "Breakfast",
+        "title": "Breakfast Dishes - Breakfast",
+        "image": "https://www.themealdb.com/images/category/breakfast.png",
+        "description": "Breakfast is the first meal of the day, often including cereals, eggs, and toast."
+      },
+      {
+        "id": "14",
+        "category": "Meat",
+        "title": "Goat Meat - Meat",
+        "image": "https://www.themealdb.com/images/category/goat.png",
+        "description": "Goat meat is widely used in various cuisines worldwide."
+      },
+      {
+        "id": "15",
+        "category": "Meat",
+        "title": "Duck Meat - Meat",
+        "image": "https://thumbs.dreamstime.com/b/grilled-duck-meat-board-67834617.jpg",
+        "description": "Duck is a flavorful meat used in many gourmet dishes."
+      },
+      {
+        "id": "16",
+        "category": "Seafood",
+        "title": "Salmon - Seafood",
+        "image": "https://media.gettyimages.com/id/637118920/photo/raw-salmon-steak.jpg?s=612x612&w=gi&k=20&c=ot2smmSouq8ffEt706wSRejfokposgrAdyUDsk8OqU0=",
+        "description": "Salmon is a popular fish known for its rich flavor and high omega-3 content."
+      },
+      {
+        "id": "17",
+        "category": "Seafood",
+        "title": "Tuna - Seafood",
+        "image": "https://static.vecteezy.com/system/resources/thumbnails/030/049/679/small/tuna-reddish-pink-meat-ideal-for-sushi-and-grilling-free-photo.jpg",
+        "description": "Tuna is a widely consumed fish, often eaten fresh or canned."
+      },
+      {
+        "id": "18",
+        "category": "Other",
+        "title": "Soups - Other",
+        "image": "https://media.istockphoto.com/id/1092632852/photo/vegetable-soup.jpg?s=612x612&w=0&k=20&c=TLMWC8lshitbk8pONGpblEsmcsBy1wZVQ9jJC92Cvh4=",
+        "description": "Soups are liquid-based dishes, often made with vegetables, meats, and broths."
+      },
+      {
+        "id": "19",
+        "category": "Pasta",
+        "title": "Spaghetti - Pasta",
+        "image": "https://media.istockphoto.com/id/637214478/photo/pasta-plate.jpg?s=612x612&w=0&k=20&c=oebCQG_Zfv2zJpobSzpF6JFNdsBQUjG6MdQh-En5l3c=",
+        "description": "Spaghetti is a popular type of pasta, often served with tomato-based sauces."
+      },
+      {
+        "id": "20",
+        "category": "Pasta",
+        "title": "Lasagna - Pasta",
+        "image": "https://media.istockphoto.com/id/168246587/photo/lasagna-spring.jpg?s=612x612&w=0&k=20&c=HaajFTNpxoDE5BMUhFe-Mtm5woZe7hYmvCtLd_Uk3m8=",
+        "description": "Lasagna is a layered pasta dish with cheese, meat, and tomato sauce."
+      },
+      {
+        "id": "21",
+        "category": "Dessert",
+        "title": "Cheesecake - Dessert",
+        "image": "https://media.istockphoto.com/id/589101300/photo/cheesecake-with-fresh-berries.jpg?s=612x612&w=0&k=20&c=v1M6Unzo79IU0v6Ln805Roy844Bi-EAjTfmjkV97Fuo=",
+        "description": "Cheesecake is a creamy dessert made with cream cheese and a biscuit base."
+      },
+      {
+        "id": "22",
+        "category": "Dessert",
+        "title": "Pancakes - Dessert",
+        "image": "https://media.istockphoto.com/id/1148638351/photo/sunday-breakfast.jpg?s=612x612&w=0&k=20&c=QXiLI-lY6wSKFxIZ1VpS3OopD-842NzOlSsCWJ2pzYA=",
+        "description": "Pancakes are thin cakes made from batter, often served with syrup."
+      },
+      {
+        "id": "23",
+        "category": "Dessert",
+        "title": "Cookies - Dessert",
+        "image": "https://media.istockphoto.com/id/187957173/photo/chocolate-chip-cookies-on-linen-napkin-wooden-table.jpg?s=612x612&w=0&k=20&c=KTOSF54xd_V128_9_SDSm4dlUimPrBYsNLSODU_-e6g=",
+        "description": "Cookies are sweet baked treats, often made with chocolate chips or nuts."
+      },
+      {
+        "id": "24",
+        "category": "Vegan",
+        "title": "Salads - Vegan",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-IDUBVqEmNBNJsGMZ6U1apETtp9LRrgmzmg&s",
+        "description": "Salads are fresh dishes made with vegetables, fruits, and dressings."
+      },
+      {
+        "id": "25",
+        "category": "Vegan",
+        "title": "Fruits - Vegan",
+        "image": "https://media.istockphoto.com/id/1284690585/photo/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors.jpg?s=612x612&w=0&k=20&c=fXqp_CPaHMyfzMhjZGQG1zloNBNkVRjdYKScw3K98XQ=",
+        "description": "Fruits are natural, sweet foods rich in vitamins and fiber."
+      },
+      {
+        "id": "26",
+        "category": "Breakfast",
+        "title": "Oatmeal - Breakfast",
+        "image": "https://s.yimg.com/ny/api/res/1.2/hDfVgrCCXjuE7rjx0O649A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD0xMjAw/https://media.zenfs.com/en/eating_well_articles_946/66f979cbe2368e3ec74ae28eac0163b0",
+        "description": "Oatmeal is a healthy breakfast dish made from oats and milk or water."
+      },
+      {
+        "id": "27",
+        "category": "Breakfast",
+        "title": "French Toast - Breakfast",
+        "image": "https://d1ssu070pg2v9i.cloudfront.net/pex/simonhowie/2021/05/24175506/Cinnamon-Bacon-French-Toast-1024-x-512.jpg",
+        "description": "French toast is bread soaked in eggs and milk, then fried."
+      },
+      {
+        "id": "28",
+        "category": "Meat",
+        "title": "Sausages - Meat",
+        "image": "https://www.aussiemeat.hk/cdn/shop/articles/Shopify_Blog_Articles_ebooks_1080_x_1080_Herman_1000x1000.png?v=1690253106",
+        "description": "Sausages are ground meat encased in a skin, often grilled or fried."
+      }
+    ]
+  }
